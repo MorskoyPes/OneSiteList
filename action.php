@@ -5,7 +5,7 @@ $err_message = '';
     	$err_message .= "You did not enter a Name"."<br>";
 	}
 	if (empty($_POST['email'])) {
-    	$err_message .= "You have not entered Mail"."<br>";
+    	$err_message .= "You did not enter a Mail"."<br>";
 	}
 	if (empty($_POST['message'])) {
     	$err_message .= "You did not enter a Message"."<br>";
