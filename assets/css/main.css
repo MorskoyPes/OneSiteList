@@ -563,7 +563,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
-						width: 100%;
+						width: 75%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -601,7 +601,7 @@ input, select, textarea {
 		-ms-appearance: none;
 		appearance: none;
 		box-shadow: inset 0 0 0 1px #e6e6e6;
-		width: 450px;
+		width: 75%;
 		padding: 0.85em 1em 0.85em 1em;
 		border: 0;
 		text-align: center;
