@@ -835,7 +835,7 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0);
 		box-shadow: inset 0 0 0 0px #fff;
 		width: 400px;
 		height: 130px;
@@ -848,7 +848,7 @@ input, select, textarea {
 		.dark input[type="reset"]:hover,
 		.dark button:hover,
 		.dark .button:hover {
-			background: rgba(255, 255, 255, 0.25);
+			background: rgba(255, 255, 255, 0);
 		}
 
 		.dark input[type="button"].alt,
@@ -987,7 +987,7 @@ input, select, textarea {
 		}
 
 		#header header p {
-			margin-top: 1.5em;
+			margin-top: 0.2em;
 			font-weight: 100;
 			padding: 0;
 			font-size: 1.5em;
