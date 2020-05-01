@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 
@@ -17,10 +18,10 @@
 			<section id="header" class="dark">
 				<header>
 					<h1> Reach your clients  with </h1>
-					<p>Awesomeads media</p>
+					<p>AwesomeAds Media</p>
 				</header>
 				<footer>
-					<a href="#first" class="button scrolly">Proceed to second phase</a>
+					<a href="#first" class="button scrolly"><img src="images/SCROLL-DOWN.gif" alt=""></a>
 				</footer>
 			</section>
 
@@ -34,7 +35,7 @@
 					<p>So we may work with any businnes, online or offline - not even matter. Do you want to sell your handmade toys or a Large Hadron Collider? Just ping us and we'll craft tailored growth strategies and help our clients execute them to drive growth.</p>
 				</header>
 				<footer>
-					<a href="#second" class="button scrolly">Proceed to third phase</a>
+					<a href="#second" class="button scrolly"><img src="images/SCROLL-DOWN.gif" alt=""></a>
 				</footer>
 			</section>
 
@@ -138,9 +139,6 @@
 								 			<div class="number"><img src="images/zenads.png" alt=""></div>
 								 		</div>
 									</div>
-								<footer><div class="scroll">
-									<a href="#fourth" class="button scrolly">Go to the last step</a>
-								</div></footer>
 							</div>
 						</div>
 					</div>

@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	font-family: 'Lora', serif;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -125,7 +127,6 @@ input, select, textarea {
 		color: #666;
 		margin: 0 0 1em 0;
 		font-weight: 100;
-		line-height: 1.5em;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -308,7 +309,7 @@ input, select, textarea {
 
 	.row > section,
 	.row > article {
-		margin-bottom: 0;
+		margin-bottom: -70px;
 	}
 
 /* Image */
@@ -599,13 +600,11 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		display: block;
 		box-shadow: inset 0 0 0 1px #e6e6e6;
-		background: #f8f8f8;
-		width: 100%;
+		width: 450px;
 		padding: 0.85em 1em 0.85em 1em;
-		border-radius: 0.25em;
 		border: 0;
+		text-align: center;
 	}
 
 		form input[type="text"]:focus,
@@ -627,7 +626,7 @@ input, select, textarea {
 	}
 
 	form textarea {
-		min-height: 13em;
+		min-height: 0.5em;
 	}
 
 	form select {
@@ -836,9 +835,12 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: rgba(255, 255, 255, 0.15);
-		box-shadow: inset 0 0 0 1px #fff;
+		background: rgba(255, 255, 255, 0.1);
+		box-shadow: inset 0 0 0 0px #fff;
+		width: 400px;
+		height: 130px;
 		color: #fff;
+		text-align: center;
 	}
 
 		.dark input[type="button"]:hover,
@@ -977,7 +979,7 @@ input, select, textarea {
 
 		#header header h1 {
 			font-size: 3.8em;
-			line-height: 2.8em;
+			line-height: 1.5em;
 			margin-bottom: 0;
 			font-weight: 500;
 
@@ -989,13 +991,20 @@ input, select, textarea {
 			font-weight: 100;
 			padding: 0;
 			font-size: 1.5em;
-			line-height: 1.5em;
+			margin-bottom: 150px;
 			text-align: center;
 			font-weight: 300;
 		}
+		#header img{
+			width: 200px;
+			height: auto;
+
+		}
+
 
 		#header footer {
 			padding-top: 1.5em;
+			align-items: center;
 		}
 
 /* Header */
@@ -1018,7 +1027,7 @@ input, select, textarea {
 
 		#first header h1 {
 			font-size: 3.8em;
-			line-height: 1.8em;
+			line-height: 1.2em;
 			margin-bottom: 0;
 			font-weight: 500;
 
@@ -1037,10 +1046,33 @@ input, select, textarea {
 			font-weight: 300;
 			line-height: 1.5em;
 		}
+		#first img{
+			width: 200px;
+			height: auto;
+
+		}
 
 		#first footer {
 			padding-top: 1.5em;
 		}
+
+		#third {
+			background-color: #fff;
+		}
+		#third footer img{
+			width: 200px;
+			height: auto;
+		}
+
+		#third footer {
+			padding-top: 1.5em;
+		}
+
+		#fourth h2, p{
+			line-height: 0.7em;
+		}
+		
+
 /* Main Sections */
 
 	.main {
@@ -1052,6 +1084,12 @@ input, select, textarea {
 			background: #fff;
 			text-align: center;
 			padding: 5em 0 5em 0;
+			margin: 0;
+		}
+		#fourth header {
+			background: #fff;
+			text-align: center;
+			padding: 5em 0 2em 0;
 			margin: 0;
 		}
 
@@ -1068,7 +1106,7 @@ input, select, textarea {
 			}
 
 		.main > .content {
-			padding: 6em 0 6em 0;
+			padding: 2em 0 2em 0;
 		}
 
 			.main > .content h3 {
@@ -1102,7 +1140,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0;
 		text-align: center;
-		padding: 4em 0 8em 0;
+		padding: 4em 0 0em 0;
 		box-shadow: inset 0 1px 0 0 #e6e6e6;
 	}
 
@@ -1360,8 +1398,8 @@ input, select, textarea {
 	display: grid;
 	grid-template-columns: repeat(3, 0fr);
 	grid-template-rows: repeat(2, 0fr);
-	grid-column-gap: 16px;
-	grid-row-gap: 16px;
+	grid-column-gap: 80px;
+	grid-row-gap: 80px;
 	justify-content: center;
 
 	}
@@ -1375,7 +1413,7 @@ input, select, textarea {
 	display: flex;
 	justify-content: center;
 	text-align:  center;
-	margin: 20px;
+	margin: 0;
 }
 
 .parts{
