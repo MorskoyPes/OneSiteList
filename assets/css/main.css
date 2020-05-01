@@ -220,7 +220,7 @@ input, select, textarea {
 	}
 
 		header h1, header h2, header h3, header h4, header h5, header h6 {
-			margin: 0;
+			margin: 50px;
 		}
 
 		header p {
@@ -979,7 +979,7 @@ input, select, textarea {
 
 		#header header h1 {
 			font-size: 3.8em;
-			line-height: 1.5em;
+			line-height: 1.2em;
 			margin-bottom: 0;
 			font-weight: 500;
 
@@ -991,14 +991,14 @@ input, select, textarea {
 			font-weight: 100;
 			padding: 0;
 			font-size: 1.5em;
-			margin-bottom: 150px;
+			margin-bottom: 20px;
 			text-align: center;
 			font-weight: 300;
 		}
-		#header img{
-			width: 200px;
-			height: auto;
-
+		#header img {
+		    width: 150px;
+		    height: auto;
+		    filter: invert(1);
 		}
 
 
@@ -1047,8 +1047,9 @@ input, select, textarea {
 			line-height: 1.5em;
 		}
 		#first img{
-			width: 200px;
-			height: auto;
+		    width: 150px;
+		    height: auto;
+		    filter: invert(1);
 
 		}
 
