@@ -841,6 +841,9 @@ input, select, textarea {
 		height: 130px;
 		color: #fff;
 		text-align: center;
+		margin: auto;
+		margin-left: -3em;
+
 	}
 
 		.dark input[type="button"]:hover,
@@ -1036,8 +1039,8 @@ input, select, textarea {
 
 		#first header p {
 			margin-top: 1em;
-			margin-left: 9em;
-			margin-right: 9em;
+			margin-left: 3em;
+			margin-right: 3em;
 			font-weight: 100;
 			padding: 0;
 			font-size: 1em;
@@ -1379,8 +1382,8 @@ input, select, textarea {
 }
 #second p{
 			margin-top: 1em;
-			margin-left: 9em;
-			margin-right: 9em;
+			margin-left: 3em;
+			margin-right: 3em;
 			font-weight: 100;
 			padding: 0;
 			font-size: 1em;
@@ -1483,3 +1486,4 @@ input, select, textarea {
 	grid-row-gap: 16px;
 	justify-content: center;
 }
+

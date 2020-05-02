@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/scroll.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
@@ -21,7 +22,10 @@
 					<p>AwesomeAds Media</p>
 				</header>
 				<footer>
-					<a href="#first" class="button scrolly"><img src="images/SCROLL-DOWN.gif" alt=""></a>
+					<!-- <a href="#first" class="button scrolly">
+
+  <div class="chevron"></div>
+</div></a> -->
 				</footer>
 			</section>
 
@@ -35,7 +39,7 @@
 					<p>So we may work with any businnes, online or offline - not even matter. Do you want to sell your handmade toys or a Large Hadron Collider? Just ping us and we'll craft tailored growth strategies and help our clients execute them to drive growth.</p>
 				</header>
 				<footer>
-					<a href="#second" class="button scrolly"><img src="images/SCROLL-DOWN.gif" alt=""></a>
+					<!-- <a href="#second" class="button scrolly"><img src="images/SCROLL-DOWN.gif" alt=""></a> -->
 				</footer>
 			</section>
 
