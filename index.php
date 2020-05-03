@@ -198,15 +198,14 @@
 
 <!-- Footer -->
 <section id="footer">
-    <ul class="icons">
-        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-    </ul>
-    <div class="copyright">
+<!--    <ul class="icons">-->
+<!--        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
+<!--        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+<!--        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+<!--    </ul>-->
+    <div class="copyright" align="center">
         <ul class="menu">
-            <li></li>
-            <li></li>
+            <li>awesomeads.cloud &copy; 2019-2020</li>
         </ul>
     </div>
 </section>
