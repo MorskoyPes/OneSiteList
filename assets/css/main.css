@@ -968,16 +968,18 @@ button.alt:hover,
 #header {
     position: relative;
     margin: 0;
-    background-image: url("images/overlay.png"), url("../../images/header.jpg");
-    background-size: auto, cover;
-    background-position: top left, top center;
+    background-image: linear-gradient(
+            rgba(255,0,0,0.2) 10%,
+            70%,
+            rgba(0,0,255,0.3) 90%
+    ), url(images/overlay.png), url(../../images/header.jpg);
+    background-size: auto, auto, cover;
+    background-position: top left, top left, top center;
     background-repeat: repeat, no-repeat;
-
-    padding: 7em 0 7em 0;
+    padding: 7em 0 16em 0;
     text-align: center;
     color: #fff;
     height: 50%;
-
 }
 
 #header header h1 {
@@ -1091,12 +1093,12 @@ button.alt:hover,
 .main > header {
     background: #fff;
     text-align: center;
-    padding: 5em 0 5em 0;
+    padding: 1em 0 2em 0;
     margin: 0;
 }
 
 #fourth header {
-    background: #fff;
+    /*background: #fff;*/
     text-align: center;
     padding: 5em 0 2em 0;
     margin: 0;
@@ -1140,7 +1142,7 @@ button.alt:hover,
 
 .main > .content.style4 {
     padding-top: 0;
-    background: #fff;
+    /*background: #fff;*/
 }
 
 /* Footer */
