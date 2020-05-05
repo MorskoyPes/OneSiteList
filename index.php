@@ -103,7 +103,7 @@
             <h2>Ready to Join Best Popunder Network?</h2>
         </div>
     </header>
-    <div class="container">
+    <div class="container" style="padding-bottom: 2em;">
         <div class="parts">
             <div class="part">
                 <div class="number"><img src="images/1xbet.png" alt=""></div>
@@ -155,9 +155,6 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
-    </div>
 </section>
 
 
@@ -165,7 +162,7 @@
 <section id="fourth" class="main">
 
     <div class="content  featured">
-<!--        style4-->
+        <!--        style4-->
         <div class="container medium">
             <h3>Have Questions? Contact us!</h3>
             <form method="post" action="action.php" id="ajax_form">
@@ -191,11 +188,11 @@
 
 <!-- Footer -->
 <section id="footer">
-<!--    <ul class="icons">-->
-<!--        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
-<!--        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
-<!--        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
-<!--    </ul>-->
+    <!--    <ul class="icons">-->
+    <!--        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
+    <!--        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+    <!--        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+    <!--    </ul>-->
     <div class="copyright" align="center">
         <ul class="menu">
             <li>awesomeads.cloud &copy; 2019-2020</li>

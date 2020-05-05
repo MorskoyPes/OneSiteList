@@ -1395,10 +1395,9 @@ button.alt:hover,
     display: grid;
     grid-template-columns: repeat(3, 0fr);
     grid-template-rows: repeat(2, 0fr);
-    grid-column-gap: 80px;
-    grid-row-gap: 80px;
+    grid-column-gap: 4.4em;
+    grid-row-gap: 2.2em;
     justify-content: center;
-
 }
 
 .information h3 {
