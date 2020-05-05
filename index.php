@@ -5,7 +5,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-
 <head>
     <title>AwesomeAds Media</title>
     <meta charset="utf-8"/>
@@ -24,9 +23,9 @@
         <p>AwesomeAds Media</p>
     </header>
     <footer>
-        <!-- <a href="#first" class="button scrolly">
-<div class="chevron"></div>
-</div></a> -->
+        <a href="#first" class="button scrolly">
+        <div class="chevron"></div>
+        </div></a>
     </footer>
 </section>
 
@@ -41,7 +40,9 @@
             execute them to drive growth.</p>
     </header>
     <footer>
-        <!-- <a href="#second" class="button scrolly"><img src="images/SCROLL-DOWN.gif" alt=""></a> -->
+        <a href="#second" class="button scrolly">
+        <div class="chevron"></div>
+        </div></a>
     </footer>
 </section>
 

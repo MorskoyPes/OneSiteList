@@ -842,7 +842,6 @@ button.alt:hover,
     color: #fff;
     text-align: center;
     margin: auto;
-    margin-left: -3em;
 
 }
 
@@ -972,7 +971,7 @@ button.alt:hover,
     background-size: auto, auto, cover;
     background-position: top left, top left, top center;
     background-repeat: repeat, no-repeat;
-    padding: 7em 0 16em 0;
+    padding: 7em 0 0 0;
     text-align: center;
     color: rgb(255, 255, 255);
     height: 50%;
@@ -1007,7 +1006,7 @@ button.alt:hover,
 
 
 #header footer {
-    padding-top: 1.5em;
+    padding-top: 8.5em;
     align-items: center;
 }
 
@@ -1023,7 +1022,7 @@ button.alt:hover,
     background-repeat: repeat, no-repeat;
     background-color: rgba(0, 0, 0, .7);
     background-blend-mode: darken;
-    padding: 7em 0 7em 0;
+    padding: 5em 0 0 0;
     text-align: center;
     color: rgb(255, 255, 255);
     /* box-shadow: 0px 0px 0px 0px #000; */
@@ -1053,7 +1052,6 @@ button.alt:hover,
     line-height: 1.5em;
 }
 
-
 #first img {
     width: 150px;
     height: auto;
@@ -1062,7 +1060,7 @@ button.alt:hover,
 }
 
 #first footer {
-    padding-top: 1.5em;
+    padding-top: 3.5em;
 }
 
 #third {

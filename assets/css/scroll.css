@@ -19,6 +19,7 @@
           transform: scale(0.3);
   -webkit-animation: move-chevron 3s ease-out infinite;
           animation: move-chevron 3s ease-out infinite;
+left: 42%;
 }
 
 .chevron:first-child {
