@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>Tessellate by HTML5 UP</title>
+    <title>AwesomeAds Media</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
@@ -30,11 +30,9 @@
 </section>
 
 <!-- First -->
-
 <section id="first" class="dark">
     <header>
-        <h1> Helping Leading</h1>
-        <h1> Brands Scale. </h1>
+        <h1>Helping Leading<br>Brands Scale</h1>
         <p>AwesomeAds is a diverse team of best mediabiyers, performance marketing and just a creative guys focused on
             helping brands scale revenue and bring their unique vision to life.</p>
         <p>So we may work with any businnes, online or offline - not even matter. Do you want to sell your handmade toys
@@ -49,13 +47,14 @@
 
 <!-- Second -->
 <section id="second" class="main">
-    <header>
+    <header style="padding: 1em 0 2em 0;">
         <div class="container">
-            <h2> What are we known for. </h2>
+            <h2>What are we known for</h2>
             <p>Our team of experts has many years of experience in mediabuying, online marketing, tv marketing, offline
                 marketing and strategic consulting</p>
         </div>
     </header>
+
     <div class="content dark style2">
         <div class="container">
             <div class="row">
@@ -164,16 +163,11 @@
 
 <!-- Fourth -->
 <section id="fourth" class="main">
-    <header>
-        <div class="container">
-            <h2>Have Questions? Contact us!</h2>
-            <p> Text us </p>
-            <p>support@hilltopads.com</p>
 
-        </div>
-    </header>
-    <div class="content style4 featured">
-        <div class="container medium"><h3>Send us a message from the site</h3>
+    <div class="content  featured">
+<!--        style4-->
+        <div class="container medium">
+            <h3>Have Questions? Contact us!</h3>
             <form method="post" action="action.php" id="ajax_form">
                 <div class="row gtr-50">
                     <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name"/></div>
@@ -197,15 +191,14 @@
 
 <!-- Footer -->
 <section id="footer">
-    <ul class="icons">
-        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-    </ul>
-    <div class="copyright">
+<!--    <ul class="icons">-->
+<!--        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
+<!--        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+<!--        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+<!--    </ul>-->
+    <div class="copyright" align="center">
         <ul class="menu">
-            <li></li>
-            <li></li>
+            <li>awesomeads.cloud &copy; 2019-2020</li>
         </ul>
     </div>
 </section>
