@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/scroll.css"/>
     <link rel="stylesheet" href="assets/css/extended.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body class="is-preload">
 
@@ -23,9 +24,10 @@
         <p>AwesomeAds Media</p>
     </header>
     <footer>
-        <a href="#first" class="button scrolly">
-        <div class="chevron"></div>
-        </div></a>
+        <div class="row center-block">
+            <a href="#first" class="button scrolly">
+            <div class="chevron"></div>
+        </div></a></div>
     </footer>
 </section>
 
@@ -40,9 +42,10 @@
             execute them to drive growth.</p>
     </header>
     <footer>
-        <a href="#second" class="button scrolly">
-        <div class="chevron"></div>
-        </div></a>
+        <div class="row center-block">
+            <a href="#second" class="button scrolly">
+            <div class="chevron"></div>
+        </div></a></div>
     </footer>
 </section>
 
@@ -59,10 +62,8 @@
 
     <div class="content dark style2">
         <div class="container">
-            <div class="row">
-                <div class="col-4 col-12-narrow">
-                </div>
-                <div class="col-8 col-12-narrow">
+            <div class="row justify-content-center">
+                <div class="col-8">
                     <div class="information">
                         <div class="info">
                             <div class="number"><h3>7000+</h3>Active partners around the world</div>
@@ -93,9 +94,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    <footer>
+        <div class="row center-block">
+            <a href="#third" class="button scrolly">
+            <div class="chevron"></div>
+        </div></a></div>
+    </footer>
         </div>
     </div>
+
 </section>
 
 <!-- Third -->
@@ -161,20 +168,24 @@
 
 
 <!-- Fourth -->
-<section id="fourth" class="main">
+<section id="fourth">
 
     <div class="content  featured">
         <!--        style4-->
         <div class="container medium">
             <h3>Have Questions? Contact us!</h3>
             <form method="post" action="action.php" id="ajax_form">
-                <div class="row gtr-50">
-                    <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name"/></div>
-                    <br>
-                    <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email"/></div>
-                    <br>
-                    <div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
-                    <div class="col-12"><br>
+                <div class="row justify-content-center center-block align-items-center">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" name="name" placeholder="Name"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" name="email" placeholder="Email"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-12">
                         <div class="form_result"></div>
                         <br>
                         <ul class="actions special">
