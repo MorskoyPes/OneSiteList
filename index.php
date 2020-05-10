@@ -169,13 +169,19 @@
 
 <!-- Fourth -->
 <section id="fourth">
-
-    <div class="content  featured">
         <!--        style4-->
-        <div class="container medium">
             <h3>Have Questions? Contact us!</h3>
             <form method="post" action="action.php" id="ajax_form">
-                <div class="row justify-content-center center-block align-items-center">
+                <div>
+                    <input type="text" name="name" class="form-control" placeholder="Name">
+                </div>
+                <div>
+                    <input type="text" name="email" class="form-control" placeholder="Email">
+                </div>
+                <div>
+                    <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
+                </div>
+                <!-- <div class="row justify-content-center center-block align-items-center">
                     <div class="form-group col-md-6">
                         <input type="text" class="form-control" name="name" placeholder="Name"/>
                     </div>
@@ -184,7 +190,7 @@
                     </div>
                     <div class="form-group col-md-6">
                         <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
-                    </div>
+                    </div> -->
                     <div class="col-12">
                         <div class="form_result"></div>
                         <br>
@@ -194,8 +200,6 @@
                     </div>
                 </div>
             </form>
-        </div>
-    </div>
 
 </section>
 
