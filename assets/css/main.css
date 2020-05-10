@@ -7,6 +7,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+html {
+    overflow: hidden;
+    overflow-y: auto; 
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -221,7 +226,7 @@ header {
 }
 
 header h1, header h2, header h3, header h4, header h5, header h6 {
-    margin: 50px;
+    margin: 20px;
 }
 
 header p {
@@ -297,7 +302,7 @@ br.clear {
 
 section,
 article {
-    margin-bottom: 3em;
+    margin-bottom: 0em;
 }
 
 section > :last-child,
@@ -579,7 +584,7 @@ ul.actions.fit.stacked {
 /* Form */
 
 form .actions {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 form label {
@@ -1080,16 +1085,27 @@ button.alt:hover,
     padding-top: 1.5em;
 }
 
-#fourth h2, p {
-    line-height: 0.7em;
+#fourth {
+    background-color: white;
 }
+
+.text-h3{
+    margin: 0 0 0 0;
+    font-size: 1.25em;
+}
+
 #fourth input{
-    width: 300px;
-    margin: 20px;
+    width: 400px;
+    margin: 10px;
 }
 #fourth textarea{
     width: 400px;
-    margin: 0 20px 0 20px;
+    margin: 10px 20px 10px 20px;
+}
+
+#fourth .button{
+    width: 100%;
+    margin: 10px 0 10px 0;
 }
 
 /* Main Sections */
@@ -1126,7 +1142,7 @@ button.alt:hover,
 }
 
 .main > .content {
-    padding: 2em 0 0 0;
+    padding: 6em 0 0 0;
 }
 
 .main > .content h3 {
@@ -1233,7 +1249,7 @@ button.alt:hover,
 
     /* Sections/Article */
     section, article {
-        margin: 0 0 2.5em 0 !important;
+        margin: 0 0 0 0 !important;
     }
 
     .row > section, .row > article {
@@ -1294,11 +1310,11 @@ button.alt:hover,
     /* Footer */
     #footer {
         margin: 0 !important;
-        padding: 3em 0 3em 0;
+        padding: 0 0 1em 0;
     }
 
     #footer .copyright {
-        margin-top: 2em;
+        margin-top: 0em;
     }
 
 }
@@ -1314,7 +1330,7 @@ button.alt:hover,
 
     /* Sections/Article */
     section, article {
-        margin: 0 0 1.5em 0 !important;
+        margin: 0 0 0 0 !important;
     }
 
     .row > section, .row > article {
@@ -1361,7 +1377,7 @@ button.alt:hover,
     }
 
     .main > .content {
-        padding: 3em 0 0 0;
+        padding: 5em 0 0 0;
     }
 
     .main > .content h3 {
@@ -1491,5 +1507,21 @@ button.alt:hover,
                 grid-column-gap: 16px;
                 grid-row-gap: 16px;
                 justify-content: center;
+            }
+            #header header p {
+                margin-top: 1.2em;
+                /* font-weight: 100; */
+                padding: 0;
+                font-size: 3.8em;
+                margin-bottom: 2px;
+                text-align: center;
+                font-weight: 300;
+                line-height: 1.2em;
+            }
+            #header header h1 {
+                font-size: 2.5em;
+                line-height: 1.2em;
+                margin-bottom: 0;
+                font-weight: 500;
             }
 

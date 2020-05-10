@@ -9,11 +9,12 @@
     <title>AwesomeAds Media</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/scroll.css"/>
     <link rel="stylesheet" href="assets/css/extended.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 </head>
 <body class="is-preload">
 
@@ -168,38 +169,37 @@
 
 
 <!-- Fourth -->
-<section id="fourth">
+<section id="fourth" class="fourth">
         <!--        style4-->
-            <h3>Have Questions? Contact us!</h3>
+
+    <div class="content  featured">
+        <!--        style4-->
+        <div class="container medium">
+            <h3 class="text-h3">Have Questions? Contact us!</h3>
             <form method="post" action="action.php" id="ajax_form">
-                <div>
-                    <input type="text" name="name" class="form-control" placeholder="Name">
-                </div>
-                <div>
-                    <input type="text" name="email" class="form-control" placeholder="Email">
-                </div>
-                <div>
-                    <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
-                </div>
-                <!-- <div class="row justify-content-center center-block align-items-center">
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control" name="name" placeholder="Name"/>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control" name="email" placeholder="Email"/>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
-                    </div> -->
-                    <div class="col-12">
-                        <div class="form_result"></div>
-                        <br>
-                        <ul class="actions special">
-                            <li><input type="submit" class="button" value="Send Message"/></li>
-                        </ul>
+                <div class="row justify-content-center">
+                    <div class="col-xs-3">
+                        <div class="row justify-content-center" id="name">
+                            <input type="text" class="form-control" name="name" placeholder="Name"/> 
+                        </div>
+                        <div class="row justify-content-center" id="email">
+                            <input type="text" class="form-control" name="email" placeholder="Email"/>
+                        </div>
+
+                        <div class="row justify-content-center" id="message">
+                            <textarea name="message" class="form-control" rows="3" placeholder="Message" style="border: 0.1px; "></textarea>
+                        </div></div>
+                        <div class="col-12">
+                            <div class="form_result"></div>
+                            <ul class="actions special">
+                                <li><input type="submit" class="button" value="Send Message"/></li>
+                            </ul>
+                        
                     </div>
                 </div>
             </form>
+        </div>
+    </div>
 
 </section>
 
