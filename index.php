@@ -24,8 +24,8 @@
     </header>
     <footer>
         <a href="#first" class="button scrolly">
-        <div class="chevron"></div>
-        </div></a>
+            <div class="chevron"></div>
+            </div></a>
     </footer>
 </section>
 
@@ -41,8 +41,8 @@
     </header>
     <footer>
         <a href="#second" class="button scrolly">
-        <div class="chevron"></div>
-        </div></a>
+            <div class="chevron"></div>
+            </div></a>
     </footer>
 </section>
 
@@ -198,6 +198,7 @@
     <div class="copyright" align="center">
         <ul class="menu">
             <li>awesomeads.cloud &copy; 2019-2020</li>
+            <li>IP Tyurin Daniil Aleksandrovich</li>
         </ul>
     </div>
 </section>
