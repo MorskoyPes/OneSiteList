@@ -24,8 +24,8 @@
     </header>
     <footer>
         <a href="#first" class="button scrolly">
-        <div class="chevron"></div>
-        </div></a>
+            <div class="chevron"></div>
+            </div></a>
     </footer>
 </section>
 
@@ -33,7 +33,7 @@
 <section id="first" class="dark">
     <header>
         <h1>Helping Leading<br>Brands Scale</h1>
-        <p>AwesomeAds is a diverse team of best MediaBuyers, performance marketing and just a creative guys focused on
+        <p>AwesomeAds is a diverse team of best MediaBuyers, performance marketers and just a creative guys focused on
             helping brands scale revenue and bring their unique vision to life.</p>
         <p>So we may work with any businnes, online or offline - not even matter. Do you want to sell your handmade toys
             or a Large Hadron Collider? Just ping us and we'll craft tailored growth strategies and help our clients
@@ -41,8 +41,8 @@
     </header>
     <footer>
         <a href="#second" class="button scrolly">
-        <div class="chevron"></div>
-        </div></a>
+            <div class="chevron"></div>
+            </div></a>
     </footer>
 </section>
 
@@ -198,6 +198,7 @@
     <div class="copyright" align="center">
         <ul class="menu">
             <li>awesomeads.cloud &copy; 2019-2020</li>
+            <li>IP Tyurin Daniil Aleksandrovich</li>
         </ul>
     </div>
 </section>
