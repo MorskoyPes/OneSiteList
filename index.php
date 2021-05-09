@@ -197,8 +197,8 @@
     <!--    </ul>-->
     <div class="copyright" align="center">
         <ul class="menu">
-            <li>awesomeads.cloud &copy; 2019-2020</li>
-            <li>IP Tyurin Daniil Aleksandrovich</li>
+            <li>awesomeads.cloud &copy; 2019-2021</li>
+            <li>Sole Trader Tyurin Daniil Aleksandrovich</li>
         </ul>
     </div>
 </section>
